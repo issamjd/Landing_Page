@@ -49,5 +49,21 @@
     max-width: 30vw;
 }
 
+#contentcards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4vh;
+}
+.card img{
+    height: auto;
+    width: 13vw;
+    border-radius: 5px;
+    border: 5px solid lightskyblue;
+}
 
-
+#cards{
+    display: flex;
+    gap: 2vw;
+    padding: 4vh 0px 8vh 0px;
+}
